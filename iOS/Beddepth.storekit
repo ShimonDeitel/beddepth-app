@@ -1,0 +1,27 @@
+{
+  "identifier" : "beddepth",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "3.99",
+      "familyShareable" : false,
+      "internalID" : "beddepth_pro",
+      "localizations" : [
+        {
+          "description" : "Beddepth Pro unlocks unlimited layers and pro features.",
+          "displayName" : "Beddepth Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "beddepth_pro",
+      "referenceName" : "Beddepth Pro",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {},
+  "subscriptionGroups" : [],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
