@@ -97,16 +97,16 @@ struct ContentView: View {
                 Section("Details") {
                     TextField("Bed name", text: $draftBedname)
                         .accessibilityIdentifier("field_bedName")
-                        .keyboardType(default)
+                        .keyboardType(.default)
                     TextField("Amendment", text: $draftAmendment)
                         .accessibilityIdentifier("field_amendment")
-                        .keyboardType(default)
+                        .keyboardType(.default)
                     TextField("Depth (in)", text: $draftDepthin)
                         .accessibilityIdentifier("field_depthIn")
-                        .keyboardType(decimalPad)
+                        .keyboardType(.decimalPad)
                     TextField("Notes", text: $draftNotes)
                         .accessibilityIdentifier("field_notes")
-                        .keyboardType(default)
+                        .keyboardType(.default)
                 }
             }
             .navigationTitle(editingItem == nil ? "Add Layer" : "Edit Layer")
